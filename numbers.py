@@ -1,5 +1,5 @@
 # Main Solution
-for num in range(1,21):
+for num in range(1,121):
 	if num == 4 or num == 13:
 		print(f"{num} is unlucky")
 	elif num % 2 == 0:
@@ -9,7 +9,7 @@ for num in range(1,21):
 
 	
 # Slight Refactor
-for num in range(1,21):
+for num in range(1,121):
 	if num == 4 or num == 13:
 		state = "unlucky"
 	elif num % 2 == 0:
